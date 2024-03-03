@@ -3,8 +3,10 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "nodemon app.js"
-  },
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "start": "nodemon app.js",
+  "build": "react-scripts build"
+},
   "dependencies": {
     "@googlemaps/google-maps-services-js": "^2.1.2",
     "@handlebars/allow-prototype-access": "^1.0.3",
